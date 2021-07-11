@@ -6,7 +6,6 @@ import sanityClient from '../client.js'
 import BlockContent from '@sanity/block-content-to-react'
 import imageUrlBuilder from '@sanity/image-url'
 import moment from 'moment'
-import Florida_Beach from './img/florida_beach.jpg'
 
 const builder = imageUrlBuilder(sanityClient)
 function urlFor(source) {
