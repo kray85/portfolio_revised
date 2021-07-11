@@ -31,7 +31,7 @@ export default {
       type: 'array',
       of: [
         {
-          title: 'Block',
+          title: 'block',
           type: 'block',
           styles: [{title: 'Normal', value: 'normal'}],
           lists: [],

@@ -1,0 +1,17 @@
+.main__container {
+    padding-top: 10rem;
+}
+
+.footer {
+    background-color: var(--clr-2);
+}
+
+
+.fa__span{
+    font-size: 1.7rem;
+    margin-right: .8rem;
+}
+
+.blog__img_single {
+    width: 35%;
+}

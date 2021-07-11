@@ -1,0 +1,15 @@
+.section-thanks {
+    padding: 100px 100px;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+
+.section__heading {
+    margin-top: 6rem;
+}
+
+.section__paragraph {
+    font-size: 1.8rem;
+}

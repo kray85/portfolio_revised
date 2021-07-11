@@ -1,0 +1,45 @@
+.blog__content {
+  max-width: 1400px;
+}
+
+.main__post {
+  padding-top: 5rem;
+}
+
+.main__heading {
+  font-family: 'Amatic SC', cursive;
+  font-size: 6rem;
+  border-bottom: 0.3rem solid #333;
+}
+
+.main__p_size {
+  font-size: 1.8rem;
+}
+
+.blog__img {
+  width: 100%;
+}
+
+.span__time {
+  font-size: 1rem;
+}
+
+.latestPost__img{
+  width: 3.125rem;
+}
+.flex__container {
+  display: flex;
+}
+
+.flex__container img:first-child{
+  margin-right: 1.8rem;
+}
+
+.post__heading{
+  text-shadow:1px 1px 0 #444;
+  text-transform: uppercase;
+}
+
+.latest__time {
+  font-size: 1rem;
+}

@@ -1,0 +1,39 @@
+
+.hero__container {
+    position: absolute;
+    background: url('../img/keyboard.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-1);
+  }
+  
+  .hero__container h1 {
+    font-size: 8rem;
+    letter-spacing: .6rem;
+    margin-bottom: 0;
+  }
+
+  .hero__container p {
+    margin: .5rem;
+  }
+  
+  .hero__container {
+    font-size: 2.8rem;
+  }
+  
+  @media (max-width: 1000px) {
+  .hero__container h1 {
+    font-size: 4rem;
+    letter-spacing: 0;
+  }
+  
+  .hero__container p {
+    font-size: 1.5rem;
+    letter-spacing: 0;
+  }
+  
+  }

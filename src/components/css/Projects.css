@@ -1,0 +1,102 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  width:100%;
+  height:100%;
+  padding: 5rem 0;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-heading {
+  font-size: 6rem;
+  color: #333;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.5rem;
+  margin-bottom: 8rem;
+  border-bottom: 0.3rem solid #333;
+  text-shadow: 0.2rem 0.2rem 0.5 #555;
+  font-family: "Amatic SC", cursive;
+}
+
+.projects-wrapper {
+  width: 80%;
+  flex-wrap: wrap;
+
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  margin: 1rem;
+  background-color: #fff;
+  box-shadow: .3rem .3rem .5rem #777;
+  position: relative;
+  overflow: hidden;
+}
+.project:hover {
+  box-shadow: 1rem 1rem 1rem #777;
+}
+
+.project-text {
+  text-align: center;
+  letter-spacing: .1rem;
+  position: absolute;
+  top: -10rem;
+  transition: top .3s;
+  z-index: 10;
+}
+
+.project:hover .project-text {
+  top: 1rem;
+  transition: top .3s .3s;
+}
+
+.project-name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: capitalize;
+  font-family: "Amatic SC", cursive;;
+}
+
+.project-technologies {
+  font-size: .9rem;
+  color: #1f2937;
+}
+
+.project-img {
+  width: 30rem;
+  transition: opacity .2s;
+}
+.project:hover .project-img{
+  opacity: .2;
+}
+.project-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 0.1rem;
+  border: .3rem solid #1f2937;
+  padding: 0 1rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: -2rem;
+  transition: bottom .3s;
+}
+
+.project:hover .project-link {
+  bottom: 1.5rem;
+  transition: bottom .3s .3s;
+}
+
+.project-type {
+  font-weight: lighter;
+  font-size: .9rem;
+}
