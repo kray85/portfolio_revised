@@ -25,7 +25,6 @@ const ColoredLine = ({ color }) => (
 function Post() {
   const [postData, setPost] = useState(null)
   const [authorData, setAuthor] = useState(null)
-  const [latestPost, setLatestPost] = useState(null)
 
   useEffect(() => {
     sanityClient
